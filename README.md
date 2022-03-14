@@ -1,6 +1,4 @@
 # landry ndizeye
 # 20206370
-MY FIRST HOMEWORK
-ECC006
 
 
