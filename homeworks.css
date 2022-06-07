@@ -1,0 +1,17 @@
+.button {
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #ffde24a5;} /* button colour */
+
+body{
+    background-image: linear-gradient(to right, #c03e3e, #e91e28) 
+}

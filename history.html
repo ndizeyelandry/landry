@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <title>History</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <link rel="shortcut icon" type="image/gif" href="images/ticon.png">
+      <link rel="stylesheet" type="text/css" href="history.css">
+   </head>
+   <body background="grey.jpg">
+
+    <div class="menu">
+      <ul>
+          <li><a href="project.html"> Home</a></li>
+          <li><a href="showroom.html">Showroom</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="feedback.html">Feedbacks</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+  
+      menuToggle.addEventListener('click',()=> {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+    </script>
+    
+       <div id="about"> 
+      <div class="row card">
+          <div class="column"> 
+               <h2>THE FIRST PRACTICAL AUTOMOBILE</h2>
+              <p>Karl Benz, in full Karl Friedrich Benz, Karl also spelled Carl, (born November 25, 1844, Karlsruhe, Baden [Germany]—died April 4, 1929, Ladenburg, near Mannheim, Germany), German mechanical engineer who designed and in 1885 built the world’s first practical automobile to be powered by an internal-combustion engine.
+
+                Although the original Benz car (a three-wheeled vehicle, the Motorwagen, now preserved in Munich) first ran early in 1885, its design was not patented until January 29, 1886. Benz & Co. was founded in Mannheim in 1883 to build stationary internal-combustion engines; the company completed its first four-wheeled automobile in 1893 and produced the first of a series of racing cars in 1899. In 1926 the Benz company merged with Daimler-Motoren-Gesellschaft to form Daimler-Benz, maker of Mercedes-Benz automobiles. Benz had left the firm about 1906 to organize C. Benz Söhne in Ladenburg with his sons, Eugen and Richard. (The firm’s name reflected Benz’s sometime spelling of his first name as Carl.)</p>
+          </div>
+
+           <div class="column"> 
+            <img src="carlbenz.jpg" height="400" width="400" alt="Karl Benz with family and friends on an outing in one of his automobiles<">
+           </div> 
+
+
+      </div>
+   </div>
+
+   <br>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+      </script>
+   </body>
+   
+</html>

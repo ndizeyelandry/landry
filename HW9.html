@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Music Survey</title>
+    <link rel="stylesheet" href="">
+    <style>
+
+        * {
+            
+        }
+
+        body {
+            background-color: antiquewhite;
+            height: 100vh;
+            background-size: 100% 100%;
+        }
+
+        .h2 {
+            list-style: none;
+            display: inline-block;
+            margin: 0 9px;
+            line-height: 10px;
+        }
+
+            .h2 a {
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 7px 13px;
+                font-family: Roboto;
+                transition: 0.5s;
+            }
+
+                .h2 a.active,
+                .h2 a:hover {
+                    background: red;
+                    border-radius: 2px
+                }
+
+    </style>
+</head>
+
+<body class="background">
+    <br /><br />
+    
+    <center><h2 class="h2"> <a href="index.html" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Homepage</a></h2></center> <br><br><br>
+    <h1>Music Survey</h1>
+    <form>
+        <label>Name:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>E-Mail:</label>
+        <br>
+        <input type="email">
+
+        <fieldset style="margin-top:8px;">
+            <legend>Select Your Favorite Types of Music:</legend>
+            <input type="checkbox" />
+            <label>Pop</label>
+            <br>
+            <input type="checkbox" />
+            <label>Classical</label>
+            <br>
+            <input type="checkbox" />
+            <label>Rock</label>
+            <br>
+            <input type="checkbox" />
+            <label>Folk</label>
+            <br>
+            <input type="checkbox" />
+            <label>Rap</label>
+            <br>
+            <input type="checkbox" />
+            <label>Other</label>
+            <br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Select how often you purchase Music CDs:</legend>
+            <input type="radio" />
+            <label>Weekly</label>
+            <br>
+            <input type="radio" />
+            <label>A few CDs each year</label>
+            <br>
+            <input type="radio" />
+            <label>Monthly</label>
+            <br>
+            <input type="radio" />
+            <label>Never purchase</label>
+            <br>
+        </fieldset>
+
+        <br>
+
+        <label>Select the locations you listen to Music:</label>
+        <br>
+        <select multiple size="3">
+            <option selected>At home</option>
+            <option>In the Car</option>
+            <option>In my room</option>
+            <option>In the picnic</option>
+            <option>In the pool</option>
+        </select>
+
+        <br>
+
+        <label>What role does music play in your life?</label>
+        <br>
+        <textarea rows="3" cols="60"></textarea>
+        <br>
+
+        <button style="border:1px solid black; background-color: gold;" type="submit"><a href="http://www.uyar.com/teaching/ecc006/2017spring/login.php">Submit</a></button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+
+</html>

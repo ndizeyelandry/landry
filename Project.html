@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Project.css">
+  <title>Kingslandcar</title>
+</head>
+<body>
+  <section class="showcase"> 
+    <header>
+      <h2 class="logo">Auction</h2>
+      <div class="toggle "></div>
+    </header>
+    <video src="pexels-taryn-elliott-5309381.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Drive And Chase </h2> 
+      <h3>Your Dreams To The End</h3>
+      <p>Find your purpose and choose the first step in your journey, with hard working the path will leads you to your success. If you don't stop.</p>
+      <a href="showroom.html">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+        <li><a href="project.html"> Home</a></li>
+        <li><a href="showroom.html">Showroom</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="feedback.html">Feedbacks</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click',()=> {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  </script>
+  
+  
+</body>
+</html>
